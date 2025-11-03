@@ -286,8 +286,59 @@
               {
                 "x": 940,
                 "y": 360
+              },
+              {
+                "x": 740,
+                "y": 510
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "46af0a94-e9c9-4703-9e64-d13f688172eb",
+            "source": {
+              "cell": "f2f63d3b-1cb2-42fe-ba50-77295314462b",
+              "port": "648d0001-28a8-4ea1-baa9-fb85bf359570"
+            },
+            "target": {
+              "cell": "f2f63d3b-1cb2-42fe-ba50-77295314462b",
+              "port": "648d0001-28a8-4ea1-baa9-fb85bf359570"
+            },
+            "vertices": [],
+            "parent": "f2f63d3b-1cb2-42fe-ba50-77295314462b"
           },
           {
             "position": {
@@ -401,7 +452,10 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            }
+            },
+            "children": [
+              "46af0a94-e9c9-4703-9e64-d13f688172eb"
+            ]
           },
           {
             "position": {
